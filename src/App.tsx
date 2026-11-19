@@ -261,7 +261,7 @@ export default function App() {
               </h3>
               <div className="overflow-hidden rounded-xl bg-neutral-100 shadow-sm">
                 <img
-                  src="/tennis_elite_tactic_design_1792586754352.jpg"
+                  src="/tennis_elite_tactic_design_1792586754352.jpg"?v=2
                   alt="テニスエリートやコーチを実力でねじ伏せるタブレット戦術アナリティクス（TENNIS TACTICAL ANALYSIS）イメージ"
                   className="w-full h-48 sm:h-64 object-cover"
                   referrerPolicy="no-referrer"
