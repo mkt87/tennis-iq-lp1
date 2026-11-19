@@ -159,13 +159,15 @@ export default function App() {
         <section className="w-full bg-white py-16 sm:py-24">
           <div className="max-w-3xl mx-auto px-5 sm:px-8 space-y-10">
             <div className="text-center">
-              <h2 className="text-2xl sm:text-4xl font-black leading-snug sm:leading-tight tracking-tight text-neutral-900">
-                練習時間や体力がなくても、<br />
-                <span className="relative inline-block">
-                  「テニスIQ」
-                  <span className="absolute bottom-1 left-0 w-full h-3 bg-[#FFE600]/60 -z-10 rounded-sm"></span>
+              <h2 className="text-[15px] min-[360px]:text-[16px] min-[390px]:text-[17.5px] min-[420px]:text-[19px] sm:text-[28px] md:text-[34px] font-black leading-snug sm:leading-tight tracking-tight text-neutral-900">
+                <span className="whitespace-nowrap">練習時間や体力がなくても、</span><br />
+                <span className="whitespace-nowrap">
+                  <span className="relative inline-block">
+                    「テニスIQ」
+                    <span className="absolute bottom-1 left-0 w-full h-2.5 sm:h-3 bg-[#FFE600]/60 -z-10 rounded-sm"></span>
+                  </span>
+                  があればエリートに勝てます！
                 </span>
-                があればエリートに勝てます！
               </h2>
             </div>
 
@@ -204,7 +206,7 @@ export default function App() {
         <div className="max-w-3xl mx-auto px-5 sm:px-8 space-y-12">
           <div className="text-center">
             <h2 className="text-2xl sm:text-4xl font-black tracking-tight text-neutral-900">
-              この無料プログラムで、<br className="sm:hidden" />
+              この無料プログラムで<br className="sm:hidden" />
               <span className="relative inline-block">
                 あなたが手に入れるもの
                 <span className="absolute bottom-1 left-0 w-full h-3 bg-[#FFE600]/60 -z-10 rounded-sm"></span>
@@ -215,8 +217,8 @@ export default function App() {
           <div className="space-y-8">
             {/* Item 1 */}
             <div className="bg-white rounded-2xl p-6 sm:p-9 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.06),0_8px_10px_-6px_rgba(0,0,0,0.04)] space-y-6">
-              <h3 className="text-base sm:text-xl font-bold flex items-baseline gap-2 text-black">
-                <span className="text-xl sm:text-2xl font-black">1、</span>
+              <h3 className="text-lg min-[400px]:text-xl sm:text-[25px] font-black leading-snug flex items-baseline gap-2 text-black">
+                <span className="text-2xl sm:text-3xl font-black">1、</span>
                 <span>「今の技術のまま」で勝率を跳ね上げる方法</span>
               </h3>
               <div className="overflow-hidden rounded-xl bg-neutral-100 shadow-sm">
@@ -228,14 +230,14 @@ export default function App() {
                 />
               </div>
               <p className="text-base sm:text-lg text-neutral-800 leading-relaxed">
-                フォーム改造や、新しいショットの習得に膨大な時間をかける必要はありません。あなたが「今持っている技術」を正しく組み合わせるだけで、相手のミスを引き出し、勝率を劇的に上げる方法をお伝えします。
+                フォーム改造や、新しいショットの習得に膨大な時間をかける必要はありません。あなたが<span className="bg-[#FFE600] font-bold text-black px-1 py-0.5 rounded-[2px] box-decoration-clone">「今持っている技術」を正しく組み合わせる</span>だけで、相手のミスを引き出し、勝率を劇的に上げる方法をお伝えします。
               </p>
             </div>
 
             {/* Item 2 */}
             <div className="bg-white rounded-2xl p-6 sm:p-9 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.06),0_8px_10px_-6px_rgba(0,0,0,0.04)] space-y-6">
-              <h3 className="text-base sm:text-xl font-bold flex items-baseline gap-2 text-black">
-                <span className="text-xl sm:text-2xl font-black">2、</span>
+              <h3 className="text-lg min-[400px]:text-xl sm:text-[25px] font-black leading-snug flex items-baseline gap-2 text-black">
+                <span className="text-2xl sm:text-3xl font-black">2、</span>
                 <span>パニックを防ぐ「大人のカンニングペーパー」の作り方</span>
               </h3>
               <div className="overflow-hidden rounded-xl bg-neutral-100 shadow-sm">
@@ -247,26 +249,26 @@ export default function App() {
                 />
               </div>
               <p className="text-base sm:text-lg text-neutral-800 leading-relaxed">
-                「試合中の大事な場面になると頭が真っ白になる…」そんな悩みは今日で終わりです。考えるのではなく、反射的に正しい配球が選べるようになる「If-Thenプランニング」の構築法を伝授します。
+                「試合中の大事な場面になると頭が真っ白になる…」そんな悩みは今日で終わりです。考えるのではなく、<span className="bg-[#FFE600] font-bold text-black px-1 py-0.5 rounded-[2px] box-decoration-clone">反射的に正しい配球が選べるようになる</span>「If-Thenプランニング」の構築法を伝授します。
               </p>
             </div>
 
             {/* Item 3 */}
             <div className="bg-white rounded-2xl p-6 sm:p-9 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.06),0_8px_10px_-6px_rgba(0,0,0,0.04)] space-y-6">
-              <h3 className="text-base sm:text-xl font-bold flex items-baseline gap-2 text-black">
-                <span className="text-xl sm:text-2xl font-black">3、</span>
+              <h3 className="text-lg min-[400px]:text-xl sm:text-[25px] font-black leading-snug flex items-baseline gap-2 text-black">
+                <span className="text-2xl sm:text-3xl font-black">3、</span>
                 <span>テニスエリートやコーチを実力でねじ伏せる「戦術設計」</span>
               </h3>
               <div className="overflow-hidden rounded-xl bg-neutral-100 shadow-sm">
                 <img
-                  src="/tennis_elite_tactic_design_1792586754352.jpg"
+                  src="/src/assets/images/tennis_elite_tactic_design_1792586754352.jpg"
                   alt="テニスエリートやコーチを実力でねじ伏せるタブレット戦術アナリティクス（TENNIS TACTICAL ANALYSIS）イメージ"
                   className="w-full h-48 sm:h-64 object-cover"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <p className="text-base sm:text-lg text-neutral-800 leading-relaxed">
-                これまであなたをカモにしてきたテニスエリートたちに、まぐれではなく、実力で完全に打ち勝つ。そして、ネット越しに心の中で「ドヤ顔」するための具体的な戦術が手に入ります。
+                これまであなたをカモにしてきたテニスエリートたちに、まぐれではなく、<span className="bg-[#FFE600] font-bold text-black px-1 py-0.5 rounded-[2px] box-decoration-clone">実力で完全に打ち勝つ。</span>そして、ネット越しに心の中で「ドヤ顔」するための具体的な戦術が手に入ります。
               </p>
             </div>
           </div>
